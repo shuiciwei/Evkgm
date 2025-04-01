@@ -1,0 +1,105 @@
+.qiaoxin12724 {
+    max-width: 1200px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    background: inherit;
+}
+
+.qiaoxin12724 .ice {
+    display: flex;
+    justify-content: space-between;
+    background: inherit;
+}
+
+.qiaoxin12724 .ice .ice_main {
+    width: calc(100%/3 - 20px);
+    padding: 0 10px;
+    background: inherit;
+}
+
+.qiaoxin12724 .ice .ice_main .ice_main_img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.qiaoxin12724 .ice .ice_main .ice_main_img .backstage-blocksEditor-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.qiaoxin12724 .ice .ice_main .ice_main_img .backstage-blocksEditor-wrap .backstage-componet {
+    width: 100%;
+    height: 100%;
+}
+
+.qiaoxin12724 .ice .ice_main .ice_main_img .backstage-blocksEditor-wrap .backstage-componet .backstage-componet-bd {
+    width: 100%;
+    height: 100%;
+}
+
+.qiaoxin12724 .ice .ice_main .ice_main_img .backstage-blocksEditor-wrap .backstage-componet .backstage-componet-bd .blocks-image {
+    display: block;
+}
+
+.qiaoxin12724 .ice .ice_main .ice_main_img .backstage-blocksEditor-wrap .backstage-componet .backstage-componet-bd .blocks-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+.qiaoxin12724 .ice_main_text {
+    position: relative;
+    padding: 32px 25px 0;
+    bottom: 0;
+    transition: all .3s ease;
+    /* background: #eff3f9; */
+    background: inherit;
+    text-align: center;
+}
+
+.qiaoxin12724 .ice_main_text1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #000000;
+
+    line-height: 1.1;
+}
+
+.qiaoxin12724 .ice_main_text2 {
+    background: #1c4561;
+    width: 30px;
+    margin: 7% auto;
+    height: 2px;
+}
+
+.qiaoxin12724 .ice_main_text3 {
+    margin: 0 0 20px;
+    color: #626262;
+    line-height: 23px;
+    font-size: 14px;
+}
+
+.qiaoxin12724 .ice_main:hover .ice_main_text {
+    bottom: 110px;
+}
+
+.qiaoxin12724 .ice_main:hover .ice_main_img .backstage-blocksEditor-wrap .backstage-componet .backstage-componet-bd .blocks-image img {
+    opacity: 0.5;
+    transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width:510px) {
+    .qiaoxin12724 .ice {
+        flex-direction: column;
+    }
+
+    .qiaoxin12724 .ice .ice_main {
+        width: calc(100% - 20px);
+        padding: 0 10px;
+        margin-bottom: 20px;
+        background: inherit;
+    }
+}

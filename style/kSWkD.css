@@ -1,0 +1,35 @@
+.sitewidget-productCateList .sitewidget-hd{min-height:1px}
+.sitewidget-productCateList .sitewidget-bd{overflow:hidden}
+.sitewidget-productCateList .sitewidget-bd>ul{margin-left:-20px}
+.sitewidget-productCateList .prodli{display:inline-block;width:32.8%;margin-bottom:20px;vertical-align:top}
+.sitewidget-productCateList .prodli .inner{margin-left:20px}
+.sitewidget-productCateList .prodGrouppic{text-align:center}
+.sitewidget-productCateList .prodGrouppic img{max-width:100%}
+.sitewidget-productCateList .prodGroupName a{font-size:18px;color:#000;text-decoration:underline}
+.sitewidget-productCateList .prodGroupList{margin-bottom:10px}
+.sitewidget-productCateList .prodGroupList li{height:24px;padding-left:10px;background:url(data:image/gif;base64,R0lGODlhBAAHAJECAP///7/AwAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzNFQzhFNzgwQTgzMTFFNTg0QjBGOTBBRDUxNDkyQzYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzNFQzhFNzkwQTgzMTFFNTg0QjBGOTBBRDUxNDkyQzYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozM0VDOEU3NjBBODMxMUU1ODRCMEY5MEFENTE0OTJDNiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozM0VDOEU3NzBBODMxMUU1ODRCMEY5MEFENTE0OTJDNiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAEAAAIALAAAAAAEAAcAAAIKjA4mkZLJTFtHFAA7) no-repeat left center}
+.sitewidget-productCateList .prodGroupList a{display:inline-block;width:100%;height:24px;line-height:24px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sitewidget-productCateList .prodGroupMore{display:inline-block;padding:0 2px;line-height:14px;font-size:12px;text-transform:uppercase;border:1px solid #ccc}
+.sitewidget-productCateList .productCateList-groupDesc img{max-width:100%}
+.sitewidget-productCateList .prodGroup_ipad .prodli{width:49%}
+.sitewidget-productCateList .prodGroup_phone .prodli{width:100%}
+@media(min-width:0) and (max-width:767px){.sitewidget-productCateList .sitewidget-bd>ul{margin-left:-10px}
+.sitewidget-productCateList .prodli{display:inline-block;width:49.4%;margin-bottom:10px;vertical-align:top}
+.sitewidget-productCateList .prodli .inner{margin-left:10px}
+}
+.productCateList-groupDesc img{max-width:100%}
+.sitewidget-productCateList .prodCatePicStyle{min-height:120px}
+.sitewidget-productCateList .prodCatePicStyle .prodCatePicStyle-inner{padding-left:110px;padding-right:20px;position:relative}
+.sitewidget-productCateList .prodCatePicStyle .prodCatePicStyle-pic{width:100px;position:absolute;left:0;top:0;border:1px solid #d4d4d4}
+.sitewidget-productCateList .prodCatePicStyle .prodCatePicStyle-pic img{display:block;width:100%;height:auto}
+.sitewidget-productCateList .prodCatePicStyle a{color:#676767;display:block;line-height:26px;text-indent:5px;white-space:nowrap;width:100%;overflow:hidden;text-overflow:ellipsis}
+.sitewidget-productCateList .prodCatePicStyle .prodCatePicStyle-Name a{font-weight:bold;margin-bottom:5px}
+.sitewidget-productCateList .prodCatePicStyle li a:hover,.sitewidget-productCateList .prodCatePicStyle .prodCatePicStyle-more:hover{background-color:#f3f3f3;text-decoration:none}
+.sitewidget-productCateList .prodCatePicStyle li,.sitewidget-productCateList .prodCatePicStyle .prodCatePicStyle-more{border-bottom:1px solid #d4d4d4}
+@media(min-width:768px){.sitewidget-productCateList .prodCatePicStyle{width:33%;float:left;margin-bottom:20px}
+.sitewidget-productCateList .prodCatePicStyle:nth-child(3n+1){clear:both}
+.sitewidget-productCateList .prodCatePicStyle>div{margin-left:20px}
+}
+@media(max-width:767px){.sitewidget-productCateList .prodCatePicStyle{width:100%;margin-bottom:15px}
+.sitewidget-productCateList .prodCatePicStyle>div{margin-left:10px}
+}

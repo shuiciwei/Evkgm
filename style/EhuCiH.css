@@ -1,0 +1,262 @@
+.qiaoxin12894 {
+    max-width: 1180px;
+    padding: 30px 10px;
+    margin: 0 auto;
+}
+
+.qiaoxin12894 .news .backstage-blocksEditor-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.qiaoxin12894 .news .ArticlePicList_Item {
+    width: calc(100%/3 - 20px);
+    margin-bottom: 70px;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    padding-top: 70px;
+    word-break: break-word;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerTrans {
+    color: #8a8a8a;
+    font-size: 28px;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 0;
+    width: 100%;
+    height: 80px;
+    font-weight: 300;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerTrans1 {
+    display: none;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerTrans span {
+    margin-left: 10px;
+    display: block;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerTrans div {
+    font-size: 14px;
+    color: #BDBDBD;
+    margin-left: 10px;
+}
+
+.qiaoxin12894 .line {
+    background: #dcdcdc;
+    width: 100%;
+    height: 1px;
+    margin: 30px 0;
+    transition: all 0.6s ease 0s;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerH5 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    transition: all 0.6s ease 0s;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerH5 a {
+    color: inherit;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerP {
+    font-size: 13px;
+    color: #b0b0b0;
+    transition: all 0.6s ease 0s;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-left: 10px;
+    word-break: break-word;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerA {
+    border: 1px solid rgba(255, 255, 255, .3);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    transition: all 0.6s ease 0s;
+    opacity: 0;
+}
+
+.qiaoxin12894 .ArticlePicList_ItemContentInnerA i {
+    color: #fff;
+}
+
+.qiaoxin12894 .wrapper {
+    position: relative;
+    transition: all 0.6s ease;
+    bottom: 0;
+}
+
+.qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerTrans {
+    top: 120px;
+    height: 100px;
+    background: #49ADA3;
+    color: #fff;
+}
+
+.qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerA {
+    opacity: 1;
+    right: 180px;
+}
+
+.qiaoxin12894 .ArticlePicList_Item:hover .line {
+    background: #49ADA3;
+}
+
+.qiaoxin12894 .ArticlePicList_Item:hover .wrapper {
+    bottom: 100px;
+    transition: all 0.6s ease;
+}
+
+.qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerTrans span {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerTrans div {
+    margin-left: 50px;
+    color: #fff;
+}
+
+.qiaoxin12894 .img {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        width: unset !important;
+    }
+
+    .qiaoxin12894 {
+        width: calc(100% - 20px);
+    }
+
+    .qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerA {
+        right: 120px;
+    }
+
+    .siteblocks-setting-wrap .container>div[id^="location_"] {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerTrans span {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerTrans div {
+        margin-left: 30px;
+    }
+
+    .qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerA {
+        right: 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .qiaoxin12894 .news .backstage-blocksEditor-wrap {
+        flex-direction: column;
+    }
+
+    .qiaoxin12894 .news .ArticlePicList_Item {
+        padding-top: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        margin-bottom: 20px;
+    }
+
+    .qiaoxin12894 .news .ArticlePicList_Item:last-child {
+        border: none;
+        padding-bottom: 0;
+    }
+
+    .qiaoxin12894 .ArticlePicList_ItemContentInnerTrans {
+        top: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding: 0;
+        height: unset;
+    }
+
+    .qiaoxin12894 .ArticlePicList_ItemContentInnerH5 {
+        margin-bottom: 10px;
+    }
+
+    .qiaoxin12894 .line {
+        display: none;
+    }
+
+    .qiaoxin12894 .news .ArticlePicList_Item {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+
+    .qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerTrans {
+        top: unset;
+        height: unset;
+        background: unset;
+        color: unset;
+        background: #fff !important;
+    }
+
+    .qiaoxin12894 .ArticlePicList_Item:hover .wrapper {
+        bottom: unset;
+    }
+
+    .qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerTrans span {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerTrans div {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .qiaoxin12894 .ArticlePicList_ItemContentInnerA {
+        display: none;
+    }
+
+    .qiaoxin12894 .ArticlePicList_Item:hover .ArticlePicList_ItemContentInnerH5 {
+        color: #49ADA3;
+    }
+
+    .qiaoxin12894 .ArticlePicList_ItemContentInnerTrans1 {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: #8a8a8a;
+        font-weight: 300;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .qiaoxin12894 .ArticlePicList_ItemContentInnerTrans1 div {
+        margin-left: 10px;
+    }
+
+    .qiaoxin12894 .ArticlePicList_ItemContentInnerTrans {
+        display: none;
+    }
+}

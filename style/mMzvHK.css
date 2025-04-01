@@ -1,0 +1,264 @@
+.product9443 {
+    position: relative;
+}
+
+.product9443 .product9443_section {
+    position: relative;
+    padding: 0 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.product9443 .product9443_line {
+    width: 48px;
+    height: 4px;
+    background-color: #8d1111;
+}
+
+.product9443 .new_title {
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+.product9443 .product9443_section .product9443_title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product9443 .product9443_section .product9443_brief {
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    margin: 22px 0 28px 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+.product9443_btnBox {
+    display: inline-block;
+    background-color: #8d1111;
+}
+
+.product9443_btnBox:hover {
+    opacity: .8;
+    transition: all .2s ease;
+}
+
+.product9443 .product9443_section .product9443_btn {
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: #fff;
+    padding: 12px 84px;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*  */
+.product9443 .product9443_section .product9443_main {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 70%;
+    padding-right: 30%;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.product9443 .product9443_section .product9443_thumb {
+    position: absolute;
+    right: 34%;
+    width: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.product9443 .product9443_section .product9443_thumb img {
+    max-width: 100%;
+}
+
+.product9443 .product9443_section .product9443_slide {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.product9443 .product9443_section .product9443_slide .product9443_slideBox {
+    position: relative;
+    width: 140px;
+}
+
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_prev,
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_next {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #eee;
+    cursor: pointer;
+}
+
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_prev span,
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_next span {
+    display: none;
+}
+
+;
+
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_prev i,
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_next i {
+    display: inline-block;
+}
+
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_list {
+    padding: 8px;
+    overflow: hidden;
+}
+
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_list .product9443_item {
+    padding: 8px 2px;
+    outline: none;
+}
+
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_list .product9443_item .product9443_itemPic {
+    width: 120px;
+    height: 140px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_list .slick-current .product9443_itemPic {
+    box-shadow: 0 0 1px rgba(0, 0, 0, .6);
+}
+
+.product9443_list .product9443_item .product9443_itemPic img {
+    max-height: 100%;
+    vertical-align: top;
+}
+
+/*  */
+@media(min-width:768px) {}
+
+@media(min-width:768px) and (max-width:990px) {
+    .product9443 .product9443_section {
+        padding: 0 16px;
+    }
+}
+
+@media(min-width:990px) {
+    .product9443 .product9443_section {
+        width: 960px;
+    }
+}
+
+@media(min-width:1200px) {
+    .product9443 .product9443_section {
+        width: 1180px;
+    }
+}
+
+@media(max-width:767px) {
+    .product9443 .product9443_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product9443 .product9443_section .new_title {
+        /* font-size: 22px; */
+        padding: 16px 0;
+    }
+
+    .product9443 .product9443_section .product9443_brief {
+        margin: 18px 0;
+    }
+
+    .product9443 .product9443_section .product9443_thumb {
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: translateY(0);
+        width: 50%;
+        padding-top: 14px;
+    }
+
+    .product9443 .product9443_section .product9443_main {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .product9443 .product9443_section .product9443_slide {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_list {
+
+        position: relative;
+    }
+
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_list .product9443_item .product9443_itemPic {
+        margin: 0 auto;
+    }
+
+    .product9443_btnBox {
+        display: flex;
+    }
+
+    .product9443 .slick-track {
+        display: flex;
+    }
+
+    .product9443_list .product9443_item .product9443_itemPic img {
+        max-width: 100%;
+    }
+
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_prev,
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_next {
+        height: 120px;
+        line-height: 120px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_prev span,
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_next span {
+        display: inline-block;
+    }
+
+    .product9443_prev .fa,
+    .product9443_next .fa {
+        display: none !important;
+    }
+}
+
+@media(max-width:540px) {
+    .product9443 .product9443_section .product9443_btn {
+        width: 100%;
+    }
+
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox {
+        width: 100%;
+    }
+
+    .product9443 .product9443_section .product9443_slide .product9443_slideBox .product9443_list .product9443_item .product9443_itemPic {
+        margin: 0 auto;
+    }
+}

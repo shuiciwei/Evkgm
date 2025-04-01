@@ -1,0 +1,171 @@
+.block20724{
+    width: 1180px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+/* 编辑页按钮文字垂直居中 */
+.block20724 .text_cont .submitbtn .backstage-componet{
+    display: block;
+}
+
+
+/* 左侧 */
+.block20724 .text_cont{
+    /* overflow: hidden; */
+    width: calc(50% - 20px);
+    margin-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block20724 .text_cont .title,
+.block20724 .text_cont .content,
+.block20724 .text_cont .submitbtn{
+    padding: 20px 0px;
+
+    display: flex;
+}
+
+.block20724 .text_cont *{
+    margin: 0;
+    padding: 0;
+}
+
+.block20724 .text_cont .title{
+    padding-top: 0px;
+}
+.block20724 .text_cont .submitbtn{
+    padding-bottom: 0px;
+}
+
+.block20724 .text_cont .title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.block20724 .text_cont .content{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.block20724 .text_cont .submitbtn .blocks-button{
+    padding: 18px 34px;
+    color: white;
+    display: block;
+
+    max-width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+/* 右侧图片 */
+.block20724 .imgboxes{
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block20724 .imgboxes .imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.block20724 .imgboxes .imgbox {
+    position: relative;
+    width: calc(50% + 15px);
+}
+
+.block20724 .imgboxes .imgbox1 {
+    left: calc(50% - 15px);
+}
+
+.block20724 .imgboxes .imgbox2 {
+    left: calc(-50% + 15px);
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.block20724 .imgboxes .imgbox .backstage-blocksEditor-wrap,
+.block20724 .imgboxes .imgbox .backstage-blocksEditor-wrap .backstage-componet,
+.block20724 .imgboxes .imgbox .backstage-blocksEditor-wrap .backstage-componet .backstage-componet-bd,
+.block20724 .imgboxes .imgbox .backstage-blocksEditor-wrap .backstage-componet .backstage-componet-bd .blocks-image {
+    height: 100%;
+}
+
+.block20724 .imgboxes .imgbox .backstage-blocksEditor-wrap .backstage-componet .backstage-componet-bd .blocks-image{
+    display: block;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .block20724 {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* 调整为上下 */
+@media screen and (max-width: 768px) {
+    .block20724 {
+        padding: 40px 0px;
+        flex-direction: column;
+    }
+    /* 图片在上 */
+    .block20724 .imgboxes {
+        order: -1;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* 左侧部分宽度变为100% */
+    .block20724 .text_cont{
+        width: 100%;
+    }
+
+    .block20724 .text_cont .submitbtn .blocks-button{
+        max-width: 560px;
+        padding: 16px 28px;
+    }
+
+    .block20724 .text_cont .title{
+        padding-top: 40px;
+    }
+    .block20724 .text_cont .submitbtn{
+        padding-bottom: 0px;
+    }
+
+    .block20724 .text_cont .content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .block20724 .text_cont .title{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .block20724 .text_cont .submitbtn .blocks-button{
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .block20724 .text_cont .submitbtn .blocks-button{
+        max-width: 240px;
+    }
+}

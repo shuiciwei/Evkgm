@@ -1,0 +1,47 @@
+#cateTranstyle1 a{font-family:unset;font-size:unset;color:unset;letter-spacing:unset;line-height:unset;text-align:unset}
+#cateTranstyle1{overflow:hidden;position:relative}
+#cateTranstyle1 .cover-hidden{position:absolute;height:100%;width:100vw;top:0;z-index:99999}
+#cateTranstyle1 .cover-hidden-right{left:100%}
+#cateTranstyle1 .cover-hidden-left{right:100%}
+.sitewidget-prodGroupCategory #cateTranstyle1 .allGroup-list>li{width:280px;display:inline-block;height:60px;background-color:#fff;color:#045fab;border:1px solid #045fab;font-size:16px;box-sizing:border-box;text-align:center;line-height:60px;min-width:280px;margin-right:5px;position:relative;padding:0 10px}
+.sitewidget-prodGroupCategory #cateTranstyle1 .allGroup-list>li>a{display:block;overflow:hidden;text-overflow:ellipsis}
+.sitewidget-prodGroupCategory #cateTranstyle1 .allGroup-list>li:hover{color:#fff;background-color:#045fab}
+#cateTranstyle1 .subGroup-list{position:absolute;padding-top:22px;left:-1px}
+#cateTranstyle1 .subGroup-list>li{width:280px;height:42px;line-height:42px;background-color:#045fab;color:#fff;font-size:14px;padding:0 25px;box-sizing:border-box}
+#cateTranstyle1 .subGroup-list>li:first-child::before{content:'';width:0;height:0;border-right:12px solid transparent;border-left:12px solid transparent;border-bottom:12px solid;position:absolute;color:#045fab;left:45%;top:10px}
+#cateTranstyle1 .subGroup-list>li:hover{background-color:#045f82}
+#cateTranstyle1 .thirdGroup-list{left:255px;top:-43px;position:relative}
+#cateTranstyle1 .thirdGroup-list>li{width:160px;height:42px;line-height:42px;background-color:#045f82;overflow:hidden;text-overflow:ellipsis;color:#fff;box-sizing:border-box;font-size:14px;padding:0 10px}
+#cateTranstyle1 .thirdGroup-list>li:hover>a{border-bottom:1.5px solid #fff}
+#cateTranstyle1 .thirdGroup-list>li a{max-width:calc(100% - 34px);display:inline-block;text-indent:0;overflow:hidden;text-overflow:ellipsis;vertical-align:middle;white-space:nowrap;height:3em;box-sizing:border-box}
+#cateTranstyle1 span.sitewidget-thumb.todown{display:none}
+#cateTranstyle1 .subGroup-list{display:none}
+#cateTranstyle1 .thirdGroup-list{display:none}
+#cateTranstyle1 .allGroup-list{transition:all .5s ease;white-space:nowrap;padding-left:22px;position:relative;display:flex}
+.sitewidget-prodGroupCategory .prodcaterightjiantou{position:absolute;right:0;width:22px;top:0;background-color:white;height:60px;text-align:center;line-height:60px;cursor:pointer;font-size:28px;color:#c5c5c5}
+.sitewidget-prodGroupCategory .prodcateleftjiantou{position:absolute;width:22px;background-color:white;height:60px;text-align:center;line-height:60px;cursor:pointer;z-index:1;font-size:28px;color:#c5c5c5;display:none;left:0}
+@media screen and (max-width:1220px){.sitewidget-prodGroupCategory #cateTranstyle1 .allGroup-list>li{min-width:301px}
+#cateTranstyle1 .subGroup-list>li{width:301px}
+#cateTranstyle1 .thirdGroup-list{left:276px}
+}
+@media screen and (max-width:990px){.sitewidget-hd.sitewidget-all{display:block}
+#cateTranstyle1 .subGroup-list>li:first-child::before{display:none}
+#cateTranstyle1 .thirdGroup-list>li{width:100%}
+.sitewidget-prodGroupCategory #cateTranstyle1 .allGroup-list>li:hover{background-color:#fff !important;color:unset !important}
+.sitewidget-prodGroupCategory #cateTranstyle1 .allGroup-list>li{margin-right:0}
+#cateTranstyle1 span.sitewidget-thumb.todown{display:block;position:absolute;z-index:1000;width:50px;right:0;top:0}
+#cateTranstyle1 .subGroup-list{padding-top:0}
+#cateTranstyle1 .subGroup-list>li{position:relative}
+#cateTranstyle1 span.sitewidget-thumb.todown>i{font-size:20px}
+.sitewidget-prodGroupCategory .prodcateleftjiantou{display:none !important}
+.sitewidget-prodGroupCategory .prodcaterightjiantou{display:none !important}
+#cateTranstyle1 .allGroup-list{display:flex;padding-left:0;flex-wrap:wrap}
+.sitewidget-prodGroupCategory #cateTranstyle1 .allGroup-list>li{width:100%}
+#cateTranstyle1{height:auto !important}
+#cateTranstyle1 .allGroup-list>li{height:auto !important}
+#cateTranstyle1 .subGroup-list{position:unset}
+#cateTranstyle1 .subGroup-list>li{width:unset}
+#cateTranstyle1 .thirdGroup-list{position:unset;left:0;top:0;height:unset}
+#cateTranstyle1 .subGroup-list>li{height:unset;width:unset}
+#cateTranstyle1 .thirdGroup-list>li{width:unset}
+}

@@ -1,0 +1,15 @@
+.download-list7-container{position:relative}
+.download-list7-container .download-list7{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;width:100%}
+.download-list7-container .download-list7 .download-list7-item{width:48.5%;margin-bottom:24px}
+@media(max-width:768px){.download-list7-container .download-list7 .download-list7-item{width:100%}
+}
+.download-list7-container .download-list7 .download-list7-item .item-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap}
+.download-list7-container .download-list7 .download-list7-item .item-wrap .item-img{-ms-flex-negative:0;flex-shrink:0;width:172px;height:172px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:rgba(216,216,216,.34);overflow:hidden}
+.download-list7-container .download-list7 .download-list7-item .item-wrap .item-img img{max-height:100%}
+.download-list7-container .download-list7 .download-list7-item .item-wrap .item-main{position:relative;-webkit-box-flex:1;-ms-flex:1;flex:1;padding:16px;border:.86px solid rgba(151,151,151,.31);border-left-width:0;word-break:break-word;display:flex;flex-direction:column;justify-content:space-between}
+.download-list7-container .download-list7 .download-list7-item .item-wrap .item-main .item-main-box{margin-bottom:16px}
+.download-list7-container .download-list7 .download-list7-item .item-wrap .item-main p{word-break:break-word;color:inherit}
+.item-main-top{color:rgba(74,74,74,.57);font-size:16px}
+.item-main-top span:last-child{padding:0 8px}
+.item-main-center{font-size:inherit;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.download-list7-container .download-list7 .download-list7-item .item-wrap .item-main .download-list7-btn a{background:#ce122c;padding:6px 12px;color:#fff}

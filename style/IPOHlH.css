@@ -1,0 +1,206 @@
+.qin18464 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.qin18464 .content {
+    position: relative;
+    width: 1180px;
+    margin: 0px auto;
+}
+
+.qin18464 .content>.img {
+    width: 100%;
+    height: 530px;
+}
+
+.qin18464 .content>.img img {
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+
+    display: block;
+}
+.qin18464 .backstage-blocksEditor-wrap[data-blockseditor-type="phoenix_blocks_image"] .backstage-componet {
+    display: block;
+}
+.qin18464 .content .text {
+    width: calc(57% - 60px);
+    padding: 50px 60px;
+    line-height: 1.5;
+}
+.qin18464 .content .form-box {
+    position: absolute;
+    width: 43%;
+    top: 350px;
+    right: 60px;
+    border: 1px solid #cccccc;
+    padding: 40px;
+    background: #fff;
+    word-break: break-word;
+}
+.qin18464 .content .form-box textarea,
+.qin18464 .content .form-box input {
+    background: transparent;
+}
+.qin18464 .content .form-box .img {
+    max-width: 30%;
+    margin: 0 auto 10px;
+}
+.qin18464 .content .form-box .img img {
+    width: 100%
+}
+.qin18464 .content .form-box legend {
+    display: none;
+}
+.qin18464 .content .form-box .controls {
+    margin-bottom: 15px;
+}
+.qin18464 .content .form-box .textarea .controls{
+    margin-top: 10px;
+}
+.qin18464 .content .form-box .textarea .controls textarea {
+    padding: 10px;
+    resize: vertical;
+}
+.qin18464 .content .form-box .control-label{
+    display: flex
+}
+.qin18464 .content .form-box .control-text {
+    margin-bottom: 15px;
+}
+.qin18464 .content .form-box .control-label i {
+    order: 1;
+}
+.qin18464 .content .form-box a.uploadBtn {
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-image: -webkit-linear-gradient(top, #e2e2e2, #f3f3f3);
+    background-color: #f3f3f3;
+    color: #666;
+    border-radius: 3px;
+    float: left;
+    margin-left: calc(100% - 100px);
+    margin-top: -28px;
+}
+.qin18464 .content .form-box .controls>input,
+.qin18464 .content .form-box .controls>select,
+.qin18464 .content .form-box .controls .input-prepend>input,
+.qin18464 .content .form-box .controls .input-append>input
+{
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    outline: none;
+    min-height: 28px;
+}
+.qin18464 .content .form-box .input-append .add-on, .input-prepend .add-on {
+    background-color: transparent;
+    border: none;
+
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    height: auto;
+    line-height: 28px;
+    min-width: 16px;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    width: auto;
+
+    flex: 0 0 auto;
+}
+.qin18464 .input-prepend .add-on:first-child, .input-prepend .btn:first-child {
+    padding-right: 3px;
+}
+.qin18464 .input-append .add-on:last-child, .input-append .btn:last-child{
+    padding-left: 3px;
+}
+.qin18464 .input-prepend, .qin18464 .input-append{
+    display: flex;
+}
+
+.qin18464 .content .form-box .control-group .control-text-default{
+    line-height: 1;
+}
+.qin18464 .content .form-box .control-multi-checkbox .controls {
+    margin-top: 10px;
+}
+.qin18464 .content .form-box .control-multi-radio .controls {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.qin18464 .content .form-box .controls textarea {
+    border: 1px solid #cccccc;
+    width: 100%;
+    height: auto;
+    outline: none;
+}
+.qin18464 .content .form-box .controls #formsubmit,
+.qin18464 .content .form-box .controls #formreset {
+    background: #4a4a4a;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+    min-height: 44px;
+    height: 40px;
+    line-height: 1.2;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.2s linear;
+    margin-bottom: 0px;
+}
+.qin18464 .content .form-box .controls #formsubmit:hover {
+    background: #000;
+}
+.qin18464 .content .form-box .control-label .required {
+    padding-right: 5px;
+}
+
+    .qin18464 .content .form-box .submitGroup .controls{
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+@media screen and (max-width: 1200px) {
+    .qin18464 .content {
+        width: 100%;
+        /* padding: 20px; */
+        padding: 0px 20px 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .qin18464 .content .text {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .qin18464 .content .form-box {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .qin18464 .content>.img {
+        width: calc(100% + 40px);
+        margin-left: -20px;
+        height: auto;
+    }
+    .qin18464 .content>.img img {
+        height: auto;
+    }
+    .qin18464 .content .img .blocks-image{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}

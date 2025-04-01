@@ -1,0 +1,47 @@
+.qiaoxin20874 {
+    width: calc(100% - 96px);
+    margin: 0 auto;
+    text-align: center;
+    padding: 72px 48px;
+}
+
+.qiaoxin20874 .wrapper {
+    width: 666px;
+    margin: 0 auto;
+    word-break: break-word;
+    color: #222222;
+}
+
+.qiaoxin20874 .wrapper .beyond_top {
+    font-size: 12px;
+    padding-bottom: 16px;
+}
+
+.qiaoxin20874 .wrapper .beyond_middle {
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.qiaoxin20874 .wrapper .beyond_bottom {
+    font-size: 16px;
+}
+
+.qiaoxin20874 .wrapper .beyond_bottom a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 510px) {
+    .qiaoxin20874 .wrapper {
+        width: 100%;
+    }
+
+    .qiaoxin20874 {
+        padding: 32px 16px;
+        width: calc(100% - 32px);
+    }
+
+    .qiaoxin20874 .wrapper .beyond_middle {
+        font-size: 22px;
+    }
+}

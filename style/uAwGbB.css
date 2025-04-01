@@ -1,0 +1,359 @@
+.qiaoxin11554 .tileB .tileB_nav{
+
+}
+
+.qiaoxin11554 .tileB{
+    
+}
+.qiaoxin11554 {
+    width: 100%;
+    padding: 20px 0 0;
+}
+
+.qiaoxin11554 .wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(1) img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(2) {
+    font-weight: 200;
+    color: #fff;
+    font-size: 30px;
+}
+
+.qiaoxin11554 .emailTitle {
+    display: none;
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap label {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    top: 0;
+    height: 100%;
+    text-align: left;
+    float: right;
+    pointer-events: none;
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap label span {
+    background: #313538;
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    white-space: nowrap;
+    transition: all 300ms ease;
+    top: 16px;
+    padding: 0 10px;
+    left: 0;
+    color: #9ea3ae;
+    font-size: 13px;
+}
+
+
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap input {
+    color: #fff;
+    background-color: #343537;
+    display: block;
+    float: right;
+    font-size: 13px;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 0px!important;
+}
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap input[type=text]:focus {
+    outline: none;
+}
+.qiaoxin11554 .mailActive {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3);
+    z-index: 10;
+    -ms-transform: translateX(0) translateY(-25px);
+    transform: translateX(0) translateY(-25px);
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap .submitBtn {
+    color: #fff;
+    height: 50px;
+    width: 135px;
+    background: #e10c32;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    padding: 0 40px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap .submitBtn span {
+    z-index: 1;
+    position: relative;
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap .submitBtn:hover::before {
+    transform: scale3d(14, 12, 1);
+}
+
+.qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap .submitBtn::before {
+    content: '';
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 30px;
+    height: 30px;
+    margin: -15px 0 0 1px;
+    border-radius: 50%;
+    background: #cb0b2d;
+    -ms-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    transform: scale3d(1, 2, 1);
+    transition: transform .25s, opacity .25s;
+    transition-timing-function: cubic-bezier(.7, 0, .9, 1);
+    box-sizing: border-box;
+}
+
+.qiaoxin11554 .wrapperB {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #2f3336;
+    padding-top: 70px;
+}
+
+.qiaoxin11554 .wrapperB .tileB .tileB_title {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.qiaoxin11554 .wrapperB .tileB .tileB_nav ul li {
+    margin-bottom: 8px;
+}
+
+.qiaoxin11554 .wrapperB .tileB .tileB_nav .tileB_a {
+    color: rgba(255,255,255,0.7);;
+    transition: all .6s;
+}
+
+/* .qiaoxin11554 .wrapperB .tileB .tileB_nav .tileB_a:hover {
+    text-decoration: underline;
+} */
+
+.qiaoxin11554 .wrapperB .tileB:nth-child(4) .tileB_main {
+    color: #686b70;
+    transition: all .6s;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+/* .qiaoxin11554 .wrapperB .tileB:nth-child(4) .tileB_main:hover {
+    text-decoration: underline;
+} */
+
+.qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run {
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+}
+
+.qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run .tileB_img img:hover {
+    opacity: 0.8;
+}
+
+.qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run .tileB_img img {
+    transition: all .6s;
+}
+
+.qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run .tileB_img {
+    margin-right: 10px;
+    transition: all .6s;
+}
+
+.qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run .tileB_img:nth-child(5) {
+    margin-top: 10px;
+}
+
+.qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run .tileB_img:nth-child(4) {
+    margin-top: 10px;
+}
+
+.qiaoxin11554 .footer {
+    text-align: center;
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    padding: 30px 0;
+}
+
+.qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run .tileB_img img {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+}
+.qiaoxin11554 .tileB .tileB_main .tileB_a{
+    color: rgba(255,255,255,0.7);
+}
+@media screen and (max-width:1200px) {
+
+    .qiaoxin11554 {
+        padding: 20px;
+        width: auto;
+    }
+    .qiaoxin11554 .footer {
+        padding: 30px 0 0;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .qiaoxin11554 {
+        position: relative;
+    }
+
+
+    .qiaoxin11554 .wrapper {
+        justify-content: unset;
+        padding-bottom: 120px;
+    }
+
+    .qiaoxin11554 .wrapper .tile:nth-child(3) {
+        position: absolute;
+        left: 20px;
+        top: 100px;
+    }
+
+    .qiaoxin11554 .wrapperB {
+        padding-top: 50px;
+        position: relative;
+    }
+
+    .qiaoxin11554 .wrapperB .tileB:nth-child(5) {
+        position: absolute;
+        top: 247px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_title {
+        display: none;
+    }
+
+    .qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run {
+        flex-direction: row;
+        flex-wrap: unset;
+        width: 100%;
+    }
+
+    .qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run .tileB_img:nth-child(4) {
+        margin-top: 0;
+    }
+
+    .qiaoxin11554 .wrapperB .tileB:nth-child(5) .tileB_run .tileB_img:nth-child(5) {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .qiaoxin11554 .footer {
+        padding: 90px 0 0px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .qiaoxin11554 .wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .qiaoxin11554 .wrapper .tile:nth-child(2) {
+        font-size: 20px;
+    }
+
+    .qiaoxin11554 .wrapper .tile:nth-child(3) {
+        position: unset;
+        margin-top: 20px;
+    }
+
+    .qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap {
+        justify-content: space-between;
+    }
+
+    .qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap input {
+        color: #fff;
+        background-color: #343537;
+        display: block;
+        float: right;
+        font-size: 13px;
+        -webkit-appearance: none;
+        border: none;
+        outline: none;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+
+    .qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap label span {
+        top: 12px;
+    }
+
+    .qiaoxin11554 .wrapper .tile:nth-child(3) .emailBox .mailCollection-wrap .submitBtn {
+        color: #fff;
+        height: 40px;
+        width: 46%px;
+        background: #e10c32;
+        text-align: center;
+        line-height: 40px;
+        font-size: 13px;
+        /* padding: 0 20px; */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .qiaoxin11554 .wrapperB {
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .qiaoxin11554 .wrapperB .tileB {
+        width: 50%
+    }
+
+    .qiaoxin11554 .wrapperB .tileB:last-child {
+        width: unset;
+    }
+
+    .qiaoxin11554 .wrapperB .tileB:nth-child(3) {
+        margin-top: 10px;
+    }
+
+    .qiaoxin11554 .wrapperB .tileB:nth-child(4) {
+        margin-top: 10px;
+    }
+}
